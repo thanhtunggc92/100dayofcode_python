@@ -31,7 +31,7 @@ resources = {
 }
 
 print("Welcome to Coffee Machine")
-def check_resuorce(Menu):
+def check_resource(Menu):
     """Check resource enough or not """
     for order in Menu:
         if resources[order] <= Menu[order]:
